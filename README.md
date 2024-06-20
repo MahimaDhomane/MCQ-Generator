@@ -5,23 +5,16 @@ MCQ Generator using Google Generative AI
 - This Python script generates multiple-choice questions (MCQs) using the Google Generative AI API(gemini-pro). The script allows users to specify a topic, the number of MCQs to generate and the difficulty level of MCQs, and it saves the generated MCQs to a text file.
 
 **Prerequisites**
-- Python 3.x
+- Google collab
 - Google Generative AI API key
 
 **Usage**
 1. Clone this repository.
-2. Install the required dependency:
-```sh
-pip install google-generativeai
-```
-4. Run the script using 
-```sh
-python generate_mcq.py
-```
-5. Enter your Google Generative AI API key when prompted.
-6. Enter the subject for the MCQs.
-7. Enter the number of MCQs to generate.
-8. Enter the difficulty level for MCQs which should be given in range i.e. eg, easy to medium.
+2. Run the script using on the google collab.
+3. Enter your Google Generative AI API key when prompted.
+4. Enter the subject for the MCQs.
+5. Enter the number of MCQs to generate.
+6. Enter the difficulty level for MCQs which should be given in range i.e. eg, easy to medium.
 The script will generate the specified number of MCQs and save them to a txt file named <topic>_mcqs.txt
 
 **Explanation**
